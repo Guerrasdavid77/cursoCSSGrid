@@ -1,0 +1,22 @@
+.contenedor{
+    padding: 20px;
+    width: 400px;
+    height: auto;
+    border: 5px solid #03ff14;
+    margin: 300px auto;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-auto-columns: 100px;
+    grid-auto-flow: column;
+    gap: 20px;
+    place-content: center;
+}
+
+.item{
+    background-color: #03ff14;
+    font-size: 2.5rem;
+    display: grid;
+    justify-items: end;
+    align-items: end;
+}
